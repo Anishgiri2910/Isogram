@@ -1,0 +1,11 @@
+def is_isogram(string):
+    pass	string=string.lower()
+    		count=0
+    		for i in range (0,len(string)-1):
+    			     if(string[i].isalpha())
+                            if(string.count(string[i])>1)
+                                    print("Not Isogram")
+                                    break
+                                    count=count+1
+            if(count==0)
+                print("Isogram")
